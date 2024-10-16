@@ -1,4 +1,4 @@
-from Functions import get_middle, hypotenuse, cost_of_shipping
+from Functions import get_middle, hypotenuse, cost_of_shipping, is_prime
 
 if __name__ == '__main__':
     list = [1, 2, 3, 4, 5, 6, 3]
@@ -14,8 +14,14 @@ if __name__ == '__main__':
 
     print("hypotenuse(a, b) =", hypotenuse(a, b))
 
-    print("============================================")'''
+    print("============================================")
 
     n = int(input("Enter number of items = "))
 
-    print(f"Your shipping cost: ${cost_of_shipping(n):.2f}")
+    print(f"Your shipping cost: ${cost_of_shipping(n):.2f}")'''
+
+    print("============================================")
+
+    n = int(input("Enter number of number = "))
+
+    print("Is prime:", is_prime(n))

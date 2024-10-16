@@ -10,3 +10,13 @@ def hypotenuse(a, b):
 
 def cost_of_shipping(n):
     return 10.95 + (n-1) * 2.95
+
+def is_prime(number):
+
+    if number == 0 or number == 1:
+        return False
+
+    for i in range(2, int(number / 2 + 1)):
+        if number % i == 0:
+            return False
+    return True
